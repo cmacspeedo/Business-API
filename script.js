@@ -38,15 +38,15 @@ for (let i = 0; i < list.length; i++) {
      address.innerText = list[i].address
      card.appendChild(address);
 
-    //  // add dynamic link
+ 
+   };
+})
+
+   //  // add dynamic link
     //  const link = document.createElement("p");
     //  link.setAttribute('class','card__info')
     //  link.innerText = list[i].link
     //  card.appendChild(link);
-   };
-})
-
-
 
 // const image = document.createElement('div');
 // image.setAttribute('class', 'card__image')
