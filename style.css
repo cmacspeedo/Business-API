@@ -3,7 +3,8 @@
 }
 
 html {
-  background: url('https://github.com/cmacspeedo/Business-API/blob/0ec0a96fdf7f433d1dc04c7e0fc429f3752cf314/img/mountains.jpg') no-repeat center center fixed; 
+  background: url("https://github.com/cmacspeedo/Business-API/blob/0ec0a96fdf7f433d1dc04c7e0fc429f3752cf314/img/mountains.jpg")
+    or ("img\mountains.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,8 +39,8 @@ h1 {
   border-top: 2px solid #333333;
   border-right: 2px solid #333333;
   border-left: 2px solid #333333;
-  border-top-left-radius:var(--borderRad);
-  border-top-right-radius:var(--borderRad);
+  border-top-left-radius: var(--borderRad);
+  border-top-right-radius: var(--borderRad);
 }
 
 .card__content {
@@ -62,8 +63,8 @@ h1 {
   border-right: 2px solid #333333;
   border-left: 2px solid #333333;
   border-bottom: 2px solid #333333;
-  border-bottom-left-radius:var(--borderRad);
-  border-bottom-right-radius:var(--borderRad);
+  border-bottom-left-radius: var(--borderRad);
+  border-bottom-right-radius: var(--borderRad);
 }
 
 .card__content > p:first-of-type {
@@ -101,7 +102,7 @@ h1 {
 .card__link:hover {
   text-decoration: underline;
 }
-.card{
+.card {
   display: inline-block;
   /* border: 2px solid #333333; */
-  }
+}
